@@ -1,0 +1,7 @@
+# Log retention configuration
+
+retention:
+  access_logs: 90d
+  auth_logs: 365d
+  application_logs: 30d
+  audit_logs: 2555d  # 7 years — financial/compliance records
