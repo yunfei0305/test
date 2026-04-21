@@ -1,0 +1,10 @@
+# mTLS configuration for internal services
+# All services listed here require client certificates for incoming requests.
+
+services:
+  - name: auth-service
+    mtls_required: true
+  - name: payment-service
+    mtls_required: true
+  - name: billing-service
+    mtls_required: true
