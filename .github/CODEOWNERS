@@ -1,0 +1,7 @@
+# Path-based review requirements
+# Every change under sensitive paths requires review from the owning team.
+
+/src/auth/         @yunfei0305
+/src/billing/      @yunfei0305
+/infrastructure/   @yunfei0305
+/docs/policies/    @yunfei0305
