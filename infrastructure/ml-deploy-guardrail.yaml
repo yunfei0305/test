@@ -1,0 +1,7 @@
+# ML deployment guardrail
+
+preconditions:
+  - ai_impact_assessment: required
+  - bias_evaluation: required
+  - governance_signoff: required
+on_missing: block
